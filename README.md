@@ -1,15 +1,15 @@
-# Ex.No:3a Develop program to create a text field and a button “Navigate”. When you enter “www.gmail.com” and press navigate button it should open google page using Implicit Intents.
+# Ex.No. : 2a 
+Develop program to create a text field and a button “Navigate”. When you enter “www.gmail.com” and press navigate button it should open google page using Implicit Intents.
 
-
-## AIM:
+## AIM :
 
 To create a navigate button using Implicit Intent to display the gmail page using Android Studio.
 
-## EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED :
 
 Latest Version Android Studio
 
-## ALGORITHM:
+## ALGORITHM :
 
 Step 1: Initialize the Activity
 
@@ -47,18 +47,12 @@ Step 7: End
 
 The browser opens and displays the requested URL
 
-```
-
-## PROGRAM:
+## PROGRAM :
 
 ```
 /*
 Program to print the text “Implicitintent”.
-Developed by:
-Registeration Number :
 */
-```
-```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -102,9 +96,7 @@ Registeration Number :
         app:layout_constraintVertical_bias="0.633" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-```
 Mainactivity.java
-```
 package com.example.implecitindent;
 
 import android.content.Intent;
@@ -133,14 +125,14 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## OUTPUT
+## OUTPUT :
 
 <img width="1727" height="1080" alt="Screenshot 2026-08-21 091535" src="https://github.com/user-attachments/assets/ca3aefcf-6a0a-49cb-8675-e11c3aec7071" />
 
 <img width="1726" height="1085" alt="Screenshot 2026-08-21 091707" src="https://github.com/user-attachments/assets/31569d96-1e48-4657-991f-905edb2d93fc" />
 
+## RESULT :
 
-## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the gmail page using Android Studio is developed and executed successfully.
 
 
