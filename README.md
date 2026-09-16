@@ -16,33 +16,41 @@ Step 1: Initialize the Activity
 Start the onCreate() method
 Create references for EditText and Button UI components
 Load the activity_main.xml layout using setContentView()
+
 Step 2: Get UI Components
 
 Find the EditText widget (id: editText) using findViewById()
 Find the Button widget (id: btn) using findViewById()
+
 Step 3: Set Button Click Listener
 
 Attach an OnClickListener to the button
 Prepare to execute code when the button is clicked
+
 Step 4: Handle Button Click Event
 
 Retrieve the text entered in the EditText using getText().toString()
 Store the URL in a String variable
+
 Step 5: Create Implicit Intent
 
 Create a new Intent object with action Intent.ACTION_VIEW
 Parse the URL string using Uri.parse()
 Pass the parsed URI as data to the Intent
+
 Step 6: Start Activity with Intent
 
 Call startActivity() with the created Intent
 The system will find and launch the appropriate application (browser) to handle the URL
+
 Step 7: End
 
 The browser opens and displays the requested URL
 
+```
 
 ## PROGRAM:
+
 ```
 /*
 Program to print the text “Implicitintent”.
